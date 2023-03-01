@@ -1,0 +1,57 @@
+
+.about-services {
+  font-family: 'Open Sans', sans-serif;
+  padding: 50px;
+  text-align: center;
+  background-attachment: fixed;
+  background-color: rgb(20, 20, 19);
+  display: flexbox;
+}
+
+.about-services h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.about-services p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.service-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.service-type {
+  flex-basis: 33.33%;
+}
+
+.service-type h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.service-type p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.service-type ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: antiquewhite;
+}
+
+.service-type li {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: antiquewhite;
+}

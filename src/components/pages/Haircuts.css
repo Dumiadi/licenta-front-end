@@ -1,0 +1,51 @@
+
+.haircuts-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(213, 213, 212);
+}
+
+.haircuts-title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+
+.haircuts-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.haircuts-item {
+  background-color: #737373;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.haircuts-item h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.haircuts-item p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .haircuts-item {
+    height: auto;
+  }
+}
